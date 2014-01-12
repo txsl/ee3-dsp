@@ -2,6 +2,9 @@ figure(1);
 x = 0:100;
 x = x * 1/8000;
 
+%  Notation is a bit wrong here as the sampling frequency is fixed at 8k,
+%  and the signal frequency is changing.
+
 Fs = 150;
 subplot(2,2,1);
 n = two(1, Fs, 8000, 0, 0, 100);

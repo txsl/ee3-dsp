@@ -14,5 +14,5 @@ stem(n, x);
 
 figure(4);
 n = -10:10;
-x = exp(i*2*pi*n/10);
+x = exp(1i*2*pi*n/10);
 stem(n, x);
